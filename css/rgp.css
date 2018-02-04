@@ -1,0 +1,85 @@
+a
+{
+  font-family: "Andale Mono","Lucida Sans Typewriter","Courier New",Courier;
+  text-decoration: none 
+}
+
+a:link    
+{ 
+  color: #FFFF00;
+  #font-weight: bold;
+}
+
+a:visited
+{ 
+  color: #FFFF00;
+  #font-weight: bold;
+} 
+
+a:hover, a:active 
+{ 
+  color: #ff9900; 
+  font-weight: bold;
+}
+
+h2, h3
+{
+  color: #00FF00;
+  font-family: Verdana, Geneva, SunSans-Regular, Courier;
+  font-weight: normal;
+}
+
+body
+{ 
+  background-color: #333366; 
+  color: #F5F5F5;
+  font-family: "Andale Mono","Lucida Sans Typewriter","Courier New",Courier;
+  font-size: 11;
+}
+
+body.darkonlight
+{ 
+  background-color: white; 
+  color: black;
+}
+
+p
+{
+  margin-left: 1.0cm;
+  margin-right: 1.0cm;
+}
+
+pre
+{
+  margin-left: 0.5cm;
+  margin-right: 1.0cm;
+  font-family: "Andale Mono","Lucida Sans Typewriter","Courier New",Courier;
+  font-size: 10pt;
+}
+
+table
+{
+    border-collapse: collapse;
+    padding: 1em;
+    border: 0
+    nowrap;
+    font-size: 11;
+}
+
+th
+{
+    background-color: black; 
+    color: yellow;
+    font-size: 10pt;
+    font-family: Tahoma;
+    font-weight: normal;
+    text-align: left;
+    padding: 3px, 10px, 3px, 3px;
+    border: 0
+}
+
+td
+{
+    padding: 3px, 10px, 3px, 3px;
+    border: 0;
+}
